@@ -16,7 +16,7 @@ font-family: ‘Raleway’, sans-serif;
 
 header{
 	background-color: #E54E79;
-	padding: 20px;
+	padding: 0px;
 	width: 100%;
 	position: fixed;
 	z-index: 1000;
@@ -32,6 +32,7 @@ ul{
 	float: right;
 	padding: 0px;
 
+
 }
 
 ul li{
@@ -43,6 +44,7 @@ ul li a{
 	text-align: center;
 	padding: 30px;
 	text-decoration: none;
+	padding-right: 100px;
 	
 
 }
@@ -55,6 +57,7 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
 .logo{
 	width: 80px;
 	margin-left: 30px;
+	margin-top: 10px;
 }
 
 
@@ -63,6 +66,7 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
 	position: fixed;
 
 }
+
 
 .registro{
 	width: 400px;
@@ -82,22 +86,31 @@ h1{
 p{
 	color:grey;
 }
-button{
+.boton{
 	background-color:#E54E79;
 	padding: 10px;
 	border-radius: 10px 10px;
-	color: #EDE9E2;
+	width: 250px;
+	height: 50px;
+}
+.become{
+color: #EDE9E2;
+font-size: 20px;
+float: left;
+
+}
+.corazon{
+	width: 10%;
+	float: right;
+	padding left: 10px;
+}
+.numerocelu{
+	width: 300px;
+	height: 20px;
+	background-color: #EDE9E2;
+	border-bottom: 
 }
 
-section{
-	width: 100%;
-	height: 100%;
-	background: #00B2A9;
-	position: absolute;
-	top: 700px;
-    left: 0px;
-	
-}
 
 .play{
 	width: 100%;
@@ -114,4 +127,14 @@ section{
 .texplay{
 	color:grey;
 	font-size: 5em;
+}
+
+.tablero {
+	width: 100%;
+	height: 100%;
+	background: #00B2A9;
+	position: absolute;
+	top: 700px;
+    left: 0px;
+	
 }
