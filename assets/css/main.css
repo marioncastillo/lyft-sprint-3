@@ -10,12 +10,17 @@ Colors:
 *{
 margin: 0;
 padding: 0;
+font-family: ‘Raleway’, sans-serif;
 
 }
 
 header{
 	background-color: #E54E79;
 	padding: 20px;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+
 
 }
 
@@ -24,9 +29,9 @@ ul{
 	margin:0;
 	overflow: hidden;
 	background-color: #E54E79;
-	font-family: ‘Raleway’, sans-serif;
 	float: right;
 	padding: 0px;
+
 }
 
 ul li{
@@ -38,6 +43,7 @@ ul li a{
 	text-align: center;
 	padding: 30px;
 	text-decoration: none;
+	
 
 }
 
@@ -60,12 +66,52 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
 
 .registro{
 	width: 400px;
-	height: 200px;
+	height: 250px;
 	background: #EDE9E2;
 	position: absolute;
 	z-index: 1;
 	top: 138px;
     left: 800px;
+    padding: 30px;
+    text-align: left;
+}
+h1{
+	color: #00B2A9;
 }
 
+p{
+	color:grey;
+}
+button{
+	background-color:#E54E79;
+	padding: 10px;
+	border-radius: 10px 10px;
+	color: #EDE9E2;
+}
 
+section{
+	width: 100%;
+	height: 100%;
+	background: #00B2A9;
+	position: absolute;
+	top: 700px;
+    left: 0px;
+	
+}
+
+.play{
+	width: 100%;
+	height: 100px;
+	background: #EDE9E2;
+	position: absolute;
+	top: 100px;
+    left: 0px;
+    z-index: 1;
+    text-align: center;
+
+
+}
+.texplay{
+	color:grey;
+	font-size: 5em;
+}
