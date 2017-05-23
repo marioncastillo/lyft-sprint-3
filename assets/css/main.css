@@ -5,4 +5,47 @@ Colors:
 #00B2A9;
 #75726C;
 #EDE9E2
-*/
+*/	
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+header{
+	background-color: #E54E79;
+	padding: 20px;
+}
+
+ul{
+	list-style: none;
+	margin:0;
+	overflow: hidden;
+	background-color: #E54E79;
+	font-family: ‘Raleway’, sans-serif;
+	float: right;
+	padding: 0px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+	background-color: #E56385;
+	color: #EDE9E2;
+}
+
+.logo{
+	width: 80px;
+	margin-left: 30px;
+}
