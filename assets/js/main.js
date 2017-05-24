@@ -32,7 +32,7 @@ for(var i = 0; i<tablero.length; i++){
 
 //quiero poner un span cuando ingresa el numero de celular
 
-function celular(){
+/*unction celular(){
   var celu = document.getElementById("numero").value;
   if(!(celu == null || celu == 0).test(celu)) {
 
@@ -47,5 +47,20 @@ function celular(){
   
 
 }
-celular();
+celular();*/
+//aca quiero que al aplicar el boton start se muestre el tablero
+//llamo al id del  boton start
+//llamo a la caja tablero general remuevonclase al oculto , eln q se ve displ dos clases display none y display blok
+
+var boton_star = document.getElementById("en");
+
+var cajaAutos = document.getElementById("cajaautos");
+var area = document.getElementsByClassName("autos");
+
+boton_star.addEventListener("click",function(){
+    cajaAutos.classList.toggle("tablero");
+
+    //falta oultar del fondo 
+    
+});
 

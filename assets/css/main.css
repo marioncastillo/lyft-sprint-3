@@ -193,12 +193,12 @@ font-size: 20px;
 }
 
 #tablero{
-  border: 5px solid #900C3F;
   z-index: 1;
   position: relative;
-  width: 1050px;
+  width: 1010px;
   top: 1000px;
   left: 100px;
+  display: none;
 }
 .casilla{
   box-sizing: border-box;
@@ -207,10 +207,13 @@ font-size: 20px;
   color: #581845;
   padding: 10px;
   font-family: sans-serif;
-  width: 10%;
+  width: 8%;
   text-align: center;
   border: 5px #900C3F solid;
 }
+
+/*al div clase deja nada solo llamo al segundo y le doy un display para que lo deje oculto el tablero de juego*/
+
 
 /*footer*/
 
